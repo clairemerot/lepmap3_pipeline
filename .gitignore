@@ -1,0 +1,12 @@
+*.fa
+*.fasta
+*.gz
+02_raw_data/*
+03_parent_call_data/*
+04_filtering/*
+05_map_chr/*
+06_joinsingle/*
+07_order_LG/*
+08_analyze_maps/*
+00_archives/*
+bin/*
