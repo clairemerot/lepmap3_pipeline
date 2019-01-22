@@ -93,4 +93,6 @@ samtools mpileup -q 10 -Q 10 -s $(cat sorted_bams)|awk -f pileupParser2.awk|awk 
 # step8 look at the maps
 #in th e08 folder, one can find the output of the map with contig/position name and the plot of marker position
 #there are several Rfiles to do a summary
-#the 08_script.sh will prepare entry files for mapcomp
+
+#the 08_format_for_mapcomp.sh will prepare entry files for mapcomp
+#the 08_format_for_chromonomer.sh will prepare entry files for chromonomer (a .tsv with the position on the map , and a fasta with sequence associated with each marker)
